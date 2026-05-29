@@ -16,7 +16,7 @@
 }
 
 /* =========================
-   POSTER IMAGE
+POSTER IMAGE
 ========================= */
 .movie-card img {
   width: 100%;
@@ -26,7 +26,7 @@
 }
 
 /* =========================
-   MOVIE INFO SECTION
+MOVIE INFO SECTION
 ========================= */
 .movie-info {
   display: flex;
@@ -42,7 +42,7 @@
 }
 
 /* =========================
-   MOVIE TITLE
+MOVIE TITLE
 ========================= */
 .movie-info h3 {
   margin: 0;
@@ -56,7 +56,7 @@
 }
 
 /* =========================
-   RELEASE YEAR
+RELEASE YEAR
 ========================= */
 .movie-year {
   margin: 0;
@@ -67,7 +67,7 @@
 }
 
 /* =========================
-   RATING
+RATING
 ========================= */
 .movie-rating {
   margin: 0;
@@ -78,7 +78,7 @@
 }
 
 /* =========================
-   FAVORITE BUTTON
+FAVORITE BUTTON
 ========================= */
 .movie-info button {
   margin-top: auto;

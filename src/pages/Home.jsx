@@ -20,9 +20,7 @@ function Home() {
   const observerRef = useRef(null);
   const prevQueryRef = useRef("");
 
-  // -----------------------------
-  // SAFE QUERY RESET (NO WARNING)
-  // -----------------------------
+
   useEffect(() => {
     if (prevQueryRef.current === query) return;
 
@@ -61,7 +59,7 @@ function Home() {
   }, [loading]);
 
   // -----------------------------
-  // DEBOUNCED FETCH (SAFE INIT)
+  // DEBOUNCED FETCH 
   // -----------------------------
   const debouncedFetchRef = useRef(null);
 

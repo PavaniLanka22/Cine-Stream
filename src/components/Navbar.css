@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 
 /* =========================
-   NAVBAR
+NAVBAR
 ========================= */
 .navbar {
   position: sticky;
@@ -29,7 +29,7 @@
 }
 
 /* =========================
-   LEFT - LOGO
+LEFT - LOGO
 ========================= */
 .nav-left .logo {
   font-family: "Poppins", sans-serif;
@@ -58,7 +58,7 @@
 }
 
 /* =========================
-   CENTER - SEARCH
+CENTER - SEARCH
 ========================= */
 .nav-center {
   flex: 1;
@@ -113,7 +113,7 @@
 }
 
 /* =========================
-   RIGHT SIDE
+RIGHT SIDE
 ========================= */
 .nav-right {
   display: flex;
@@ -122,7 +122,7 @@
 }
 
 /* =========================
-   NAV BUTTONS
+NAV BUTTONS
 ========================= */
 .nav-btn {
   display: flex;
@@ -191,7 +191,7 @@
 }
 
 /* =========================
-   MOBILE
+MOBILE
 ========================= */
 @media (max-width: 768px) {
   .navbar {

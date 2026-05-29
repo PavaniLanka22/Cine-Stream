@@ -45,8 +45,7 @@ export async function getMovieFromMood(
       );
     }
 
-    // IMPORTANT:
-    // updated stable Gemini endpoint
+    
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`,
       {
@@ -109,7 +108,6 @@ ${moodPrompt}
       );
     }
 
-    // clean response
     movie = movie
       .replace(/["']/g, "")
       .replace(/\n/g, "")
