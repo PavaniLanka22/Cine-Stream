@@ -1,4 +1,4 @@
-<img width="1911" height="964" alt="Screenshot 2026-05-29 144343" src="https://github.com/user-attachments/assets/a58af12f-07eb-4e2d-bd27-e575bd2a1d8c" />
+<img width="1915" height="965" alt="Screenshot 2026-06-21 104859" src="https://github.com/user-attachments/assets/94a80303-b4cf-4380-a58c-1aa1d36cc222" />
 
 # Cine Stream
 Cine Stream is a high-performance Netflix-inspired Single Page Application (SPA) built using the TMDB (The Movie Database) REST API. The platform enables users to discover trending movies, search media dynamically, save favorites, and experience enterprise-level frontend optimization techniques such as infinite scrolling, debounced API requests, lazy loading, and AI-powered movie recommendations.
