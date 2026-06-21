@@ -5,11 +5,11 @@ import {
 
 import Navbar from "../components/Navbar";
 
+import CommunityReviews from "../pages/CommunityReviews";
 import Favorites from "../pages/Favorites";
 import Home from "../pages/Home";
 
 function AppRoutes() {
-
   return (
     <>
       <Navbar />
@@ -23,6 +23,11 @@ function AppRoutes() {
         <Route
           path="/favorites"
           element={<Favorites />}
+        />
+
+        <Route
+          path="/reviews"
+          element={<CommunityReviews />}
         />
       </Routes>
     </>

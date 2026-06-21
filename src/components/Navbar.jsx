@@ -12,6 +12,7 @@ import { getMovieFromMood } from "../api/ai";
 
 import "./Navbar.css";
 
+
 function Navbar() {
   const navigate = useNavigate();
 
@@ -268,6 +269,25 @@ function Navbar() {
             gap: "12px",
           }}
         >
+
+
+<button
+  className="nav-btn"
+  onClick={() =>
+    navigate("/reviews")
+  }
+  style={{
+    padding: "10px 18px",
+    borderRadius: "8px",
+    border: "none",
+    background: "#ff4b2b",
+    color: "white",
+    cursor: "pointer",
+    fontWeight: "600",
+  }}
+>
+  Reviews
+</button>
 
           <button
             className="nav-btn"
